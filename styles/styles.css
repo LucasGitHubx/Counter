@@ -5,4 +5,68 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: rgb(114, 114, 199);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    width: 80%;
+    max-width: 450px;
+    height: 60vh;
+    max-height: 500px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid black;
+    padding: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+h1{
+    text-align: center;
+}
+
+.contador{
+    text-align: center;
+    font-size: 2rem;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.botones button{
+    width: 70%;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.2rem;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .5s;
+}
+.botones #restar{
+    background-color: rgb(214, 102, 102);
+}
+.botones #resetear{
+    background-color: rgb(241, 221, 107);
+}
+.botones #incrementar{
+    background-color: rgb(88, 196, 88);
+}
+
+.botones #restar:hover{
+    background-color: rgb(243, 162, 162);
+}
+.botones #resetear:hover{
+    background-color: rgb(241, 231, 173);
+}
+.botones #incrementar:hover{
+    background-color: rgb(146, 247, 146);
 }
